@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Rubik", sans-serif;
+}
+
+html, body {
+	@apply bg-gradient-to-b from-dark to-dark-variant h-screen;
+}
+
+#app {
+	@apply h-screen min-h-screen max-h-screen overflow-y-scroll;
+}
+
+::-webkit-scrollbar {
+	@apply w-2;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-gradient-to-b from-dark to-dark-variant;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-[#454E56] rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-[#636F79];
+}
+
+.welcome-text-after {
+	@apply relative after:absolute after:content-[''] after:-bottom-1 after:left-0 after:h-2 after:w-0 after:rounded-full after:hover:w-full after:transition-[width]
+		after:bg-gradient-to-r after:from-teal-700 after:to-emerald-500;
+}
