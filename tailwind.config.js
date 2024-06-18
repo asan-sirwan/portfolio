@@ -6,6 +6,7 @@ export default {
 			colors: {
 				"dark": "#12181B",
 				"dark-variant": "#202737",
+				"light-gray": "#B2BECD",
 			},
 		},
 	},

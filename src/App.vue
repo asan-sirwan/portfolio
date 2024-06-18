@@ -11,7 +11,6 @@
 			<h1 class="text-xl text-white">Asan Sirwan</h1>
 		</nav>
 	</header> -->
-	<main>
-		<RouterView />
-	</main>
+
+	<RouterView />
 </template>
