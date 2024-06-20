@@ -6,7 +6,7 @@
 		:enter="{ opacity: 1, y: 0 }"
 		:duration="1000"
 	>
-		<div class="sm:w-64 w-48 rounded-full aspect-square overflow-clip border-4 mb-4">
+		<div class="sm:w-64 w-48 rounded-full aspect-square overflow-hidden border-4 mb-4">
 			<img src="/images/me.jpg" />
 		</div>
 		<div class="mb-4">

@@ -243,6 +243,15 @@
 					/>
 				</a>
 				<a
+					href="https://www.linkedin.com/in/asan-sirwan/"
+					class="group w-12 p-2 bg-gradient-to-br from-indigo-900 to-blue-800 rounded-full hover:from-white hover:to-white"
+				>
+					<img
+						src="../assets/icons/linkedin_svg.svg"
+						class="w-full group-hover:invert-0 invert"
+					/>
+				</a>
+				<a
 					href="https://wa.me/qr/TZO7Y6SD4IXMP1"
 					class="group w-12 p-3 bg-gradient-to-br from-green-600 to-emerald-500 rounded-full hover:from-white hover:to-white"
 				>
